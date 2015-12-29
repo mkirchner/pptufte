@@ -1,13 +1,32 @@
 ppTufte - A Tufte-Style PowerPoint plugin
 =========================================
 
-ppTufte is a quick VBA hack enables you to use Office 2010 to efficiently
-generate slides that mimick the handout style of Edward Tufte.
+ppTufte is a *quick VBA hack* that enables you to efficiently generate slides
+that mimick the handout style of Edward Tufte in PowerPoint 2010.
 
-![Slide example](example/Folie1.PNG)
+![Slide example](example/fox-small.png)
+![Slide example](example/island_peak-small.png)
 
-Why would someone do this?
---------------------------
+![Slide example](example/deep_learning_1-small.png)
+![Slide example](example/deep_learning_2-small.png)
+
+Installation Guide
+------------------
+
+Currently the plugin is provided in source form only, hence:
+
+* clone the repo or download the `Tufte.bas` file
+* open PowerPoint 2010
+* press Alt-F11 to open the VBA editor
+* import code into VBA editor (file -> import)
+* save as ppam file (e.g. pptufte.ppam) in your add-on folder
+* add & activate add-in
+
+
+Why?
+----
+
+TL;DR: I needed a better way to communicate dense content using PowerPoint.
 
 In the corporate world, slides are being misused to document things that should
 be written down in a document. The bullet point-heavy slideument is a painful
@@ -34,20 +53,14 @@ thoughts efficiently.
 Long story short, all *ppTufte* does is to provide a few macros that should
 make it easier for people to share information based on a clear and (somewhat)
 beautiful design without requiring them to learn a new tool.
+To this end, *ppTufte* mimicks some of the styles described in [Tufte
+CSS](https://edwardtufte.github.io/tufte-css/) by Dave Liepmann.
 
 I am perfectly aware that this is a poor man's effort to better and more
 informative communication -- the full-fledged design-type way is quite probably
 to follow [Nancy Duartes slidedoc idea](http://www.duarte.com/slidedocs/) (if
 you have the necessary resources at your disposal, that is ;-).
 
-
-
-Installation Guide
-------------------
-
-* import code into VBA editor
-* save as ppam file (e.g. pptufte.ppam) in your add-on folder
-* activate add-in
 
 
 How to use ppTufte
@@ -61,8 +74,9 @@ The easiest way to get to know the existing macros is to test them out.
 
 ### General
 
-*Important:* ppTufte will not change your fonts; I recommend to switch the presentation text
-style in the Layout ribbon to `Palatino Linotype` for Serif Fonts.
+*Important:* ppTufte will not change your fonts; I recommend to switch the
+presentation text style in the Layout ribbon to `Palatino Linotype` for Serif
+Fonts.
 
 ### Buttons
 
