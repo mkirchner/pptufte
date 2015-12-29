@@ -121,7 +121,7 @@ MIT, see `LICENSE` file and source code.
 Limitations and Frustrations
 ----------------------------
 
-* Developed and (roughly) tested under Office 2010 only. If you are a proficient
+* **Developed and (roughly) tested under Office 2010 only!** If you are a proficient
   .NET developer and feel like bringing this to later versions of Office,
   please go ahead!
 * Currently only tested with 4:3 slides; other formats should scale but may
