@@ -80,25 +80,32 @@ Fonts.
 
 ### Buttons
 
-* Create slide: this creates a new slide using a slightly adjusted contrast.
-* Make canvas: this either creates a new canvas text box on the active slide or
-  makes the selected textbox a canvas text box. In both cases, the canvas text
-  box is placed below the lowermost known canvas element.
-* Make title: creates a new title text box or makes the selected text box a
-  title box.
-* Make subtitle: creates a new subtitle text box or makes the selected text box
-  a subtitle box.
-* Make margin note: creates a new margin note from highlighted text (empty if
-  no highlighting present) or makes the selected text box a margin note.
-* Make referenced margin note: creates a new margin note from highlighted text
-  and inserts a reference at the beginning of the selection.
-* Make canvas figure: formats an existing image/figure to fit the canvas (in
-  width) and adds a figure caption. Also reformats a group of object & caption
-  to fit the canvas
-* Make margin figure: same as a canvas figure, only for the margin.
-* Autolayout canvas elements: converts all selected elements to canvas elements
-  and aligns them top-down on the canvas.
-* (Autolayout margin) (TODO)
+* Create slide: 
+    * this creates a new slide using a slightly adjusted contrast.
+* Make canvas: 
+    * this either creates a new canvas text box on the active slide or makes
+      the selected textbox a canvas text box. In both cases, the canvas text
+      box is placed below the lowermost known canvas element.
+* Make title: 
+    * creates a new title text box or makes the selected text box a title box.
+* Make subtitle: 
+    * creates a new subtitle text box or makes the selected text box a subtitle
+      box.
+* Make margin note: 
+    * creates a new margin note from highlighted text (empty if no highlighting
+      present) or makes the selected text box a margin note.
+* Make referenced margin note: 
+    * creates a new margin note from highlighted text and inserts a reference
+      at the beginning of the selection.
+* Make canvas figure: 
+    * formats an existing image/figure to fit the canvas (in width) and adds a
+      figure caption. Also reformats a group of object & caption to fit the
+      canvas
+* Make margin figure: 
+    * same as a canvas figure, only for the margin.
+* Autolayout canvas elements: 
+    * converts all selected elements to canvas elements and aligns them
+      top-down on the canvas.
 
 ### Configuring ppTufte
 
